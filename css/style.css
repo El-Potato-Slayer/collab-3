@@ -50,17 +50,3 @@
   text-decoration: none;
   color: rgba(0, 0, 0, 0.8);
 }
-
-@media screen and (min-width: 767px){
-  #navbar {
-    position: fixed;
-    width: 30%;
-    left: 0;
-  }
-
-  #main-doc {
-    width: 70%;
-    position: relative;
-    left: 30%;
-  }
-}
