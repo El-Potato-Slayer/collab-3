@@ -1,0 +1,11 @@
+#navbar {
+  position: fixed;
+  width: 30%;
+  left: 0;
+}
+
+#main-doc {
+  width: 70%;
+  position: relative;
+  left: 30%;
+}
