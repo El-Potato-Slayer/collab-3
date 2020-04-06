@@ -1,11 +1,40 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 #navbar {
-  position: fixed;
-  width: 30%;
-  left: 0;
+  border-right: solid 1px black;
+}
+
+#navbar header{
+  padding: 15px 30px;
+  font-size: 24px;
 }
 
 #main-doc {
-  width: 70%;
-  position: relative;
-  left: 30%;
+  min-height: 1200px;
+}
+
+.nav-link{
+  display: block;
+  padding: 15px 30px;
+  border-top: solid 1px black;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+@media screen and (min-width: 767px){
+  #navbar {
+    position: fixed;
+    width: 30%;
+    left: 0;
+  }
+  
+  #main-doc {
+    width: 70%;
+    position: relative;
+    left: 30%;
+  }
 }
